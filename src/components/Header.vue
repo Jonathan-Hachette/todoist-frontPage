@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router'
         <RessourcesNavigation />
         <Button variant="ghost" class="rounded-xl">Tarifs</Button>
         <Separator orientation="vertical" />
-        <RouterLink :to="{ name: 'app' }">
+        <RouterLink>
           <Button variant="ghost" class="rounded-xl">Connexion</Button>
         </RouterLink>
         <Button class="rounded-xl hover:bg-red-600">
